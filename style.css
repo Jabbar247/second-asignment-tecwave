@@ -155,4 +155,74 @@ color: #FFFFFF;
 .text-area{
     margin-top: -100px;
 }
+/* podcast area start */
+.podcast-area{
+    max-width: 1800px;
+    height: 646px;
+    background-color: #1A0B2E;
+    margin: 0 auto;
+    padding: 50px 200px 120px 200px;
+}
+.ptext-area{
+    padding-bottom: 80px;
+    border-bottom: 1px solid gray;
+}
+.ptext-area h4{
+color: #FFFFFF;
+
+font-family: Inter;
+font-style: Bold;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+}
+.ptext-area p{
+color: #FFFFFF;    
+font-family: Inter;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+}
+.card{
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 80px;
+}
+.card-1{
+    width: 240px;
+    height: 95px;
+}
+.card-1 h4{
+    width: 240px;
+height: 59px;
+color: #00FF88;
+font-family: Inter;
+font-style: Black;
+font-size: 48px;
+font-weight: 900;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: start;
+
+
+}
+.card-1 p{
+color: #FFFFFF;
+padding-top: 16px;
+font-family: Inter;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: start;
+}
 
