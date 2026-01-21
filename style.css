@@ -67,4 +67,92 @@ nav i{
     height: 24px;
     color: #FFFFFF;
 }
+/* hero area css start */
+.hero-area{
+    max-width: 1800px;
+    height: 760px;
+    background-image: url(assets/hero-bg.png);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-area img{
+    position: relative;
+
+
+}
+.logo-img{
+    position: absolute;
+    top: -260px;
+    display: block;
+}
+.hero-area h3{
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 60px;
+    text-align: center;
+    padding: 10px;
+
+
+}
+.hero-area p{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.hero-button{
+    display: flex;
+    justify-content: center;
+    gap: 8PX;
+}
+.btn-1{
+width: 201px;
+height: 44px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 8px;
+padding: 12px 20px 12px 20px;
+border-radius: 10000px;
+background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+color: #FFFFFF;
+}
+.btn-1:hover{
+    background: green;
+    
+}
+.btn-2{
+width: 147px;
+height: 44px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 8;
+padding: 12px 20px 12px 20px;
+border: 1px solid var(--#00FF88, rgba(0, 255, 136, 1));
+border-radius: 10000px;
+background-color: transparent;
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+gap: 8px;
+color: #FFFFFF;
+
+}
+.btn-2:hover{
+    color: gold;
+}
+.text-area{
+    margin-top: -100px;
+}
 
